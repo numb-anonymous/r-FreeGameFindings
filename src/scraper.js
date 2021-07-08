@@ -2,7 +2,7 @@ const axios = require('axios')
 const cheerio = require('cheerio')
 const moment = require('moment-timezone')
 
-const uri = 'https://www.reddit.com/r/FreeGameFindings/new/'
+const uri = 'https://www.reddit.com/r/freegames/new/'
 let lastPostDate = ''
 
 module.exports = async (startDate) => {
